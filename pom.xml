@@ -180,6 +180,11 @@
           <artifactId>mybatis-plus-boot-starter</artifactId>
           <version>${baomidou.version}</version>
         </dependency>
+        <dependency>
+          <groupId>com.baomidou</groupId>
+          <artifactId>mybatis-plus-annotation</artifactId>
+          <version>${mybatis-plus.version}</version>
+        </dependency>
       </dependencies>
   </dependencyManagement>
 </project>

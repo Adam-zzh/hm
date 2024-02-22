@@ -9,11 +9,11 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication(scanBasePackages = {"com.hm.*"})
-@MapperScan(value = {"com.hm.*.dao"})
+@MapperScan(value = {"com.hm.dao"})
 @EnableScheduling
 @EnableAsync
 @EnableDiscoveryClient
-@EnableFeignClients(basePackages = {"com.hm.*.client"})
+@EnableFeignClients(basePackages = {"com.hm.client"})
 public class Application
 {
     public static void main( String[] args )

@@ -1,6 +1,6 @@
 package com.hm.web;
 
-import com.hm.dao.mapper.TestMapper;
+import com.hm.dao.mapper.T1Mapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +20,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class DaoModelTest {
 
     @Autowired
-    private TestMapper testMapper;
+    private T1Mapper testMapper;
 
     @Test
     public void test(){
-        com.hm.dao.entity.Test test = testMapper.selectById(1);
+        testMapper.selectById(1);
     }
 }

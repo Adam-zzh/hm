@@ -33,9 +33,5 @@ pagehelper:
   auto-dialect: false
   auto-runtime-dialect: false
 
-mybatis:
-  mapper-locations:
-    - classpath:dao/*.xml
-    - classpath*:com/**/mapper/*.xml
 server:
   port: 9001
